@@ -1,0 +1,100 @@
+%
+% Note mnemonics
+%
+X: 1
+T: Sheet music cheat sheet
+%%vocalfont * 8
+%%subtitlespace 20
+% ---------------------------------------------------------------------------
+T: Lenghts
+L: 1/16
+M: C
+V: 1 clef=treble name=Notes
+[| G16 | G8 G8 | G8>G8 | G4 G4 G4 G4 | G2 G2G2 G2 | G GG GGG GGGG GGGGG G |]
+V: 2 clef=treble name=Rests
+[| z16 | z8 z8 | z8>z8 | z4 z4 z4 z4 | z2 z2z2 z2 | z zz zzz zzzz zzzzz z |]
+% ---------------------------------------------------------------------------
+T: Range
+L: 1/8
+M: 7/8
+V: 1 clef=treble
+[| z7 || Ccc'c''c'''c''''c'''''|]
+w: C4 C5 C6 C7 C8 C9 C10
+V: 2 clef=bass
+[| z C,,,,,C,,,,C,,,C,,C,C || z8 |]
+w: C\-1 C0 C1 C2 C3 C4
+% ---------------------------------------------------------------------------
+T: Notes
+L: 1/8
+V: 1 clef=treble
+[| z15 || LCDEFGAB cdefgab c' |]
+w: C4 D4 E4 F4 G4 A4 B4 C5 D5 E5 F5 G5 A5 B5 C6
+V: 2 clef=bass
+[| C,,D,,E,,F,,G,,A,,B,, C,D,E,F,G,A,B, LC || z15 |]
+w: C2 D2 E2 F2 G2 A2 B2 C3 D3 E3 F3 G3 A3 B3 C4
+% ---------------------------------------------------------------------------
+T: Mnemonics
+L: 1/4
+V: 1 clef=treble
+[| [M:5/4] EGBdf || [M:4/4] FAce |]
+w: Every Good Boy Does Fine | F A C E
+V: 2 clef=bass
+[| [M:5/4] G,, B,, D, F, A, || [M:4/4] A,, C, E, G, |]
+w: Good Boys Do Fine Always | All Cows Eat Grass
+% ---------------------------------------------------------------------------
+T: Clef notes
+M: 3/8
+V: 1
+[| F.GA | f.ga |]
+w: F G A | F G A 
+V: 2
+|| [K:bass] E,,.F,,G,, | E,.F,G, |]
+w: E F G | E F G
+% ---------------------------------------------------------------------------
+T: Symmetry
+M: 3/8
+V: 1
+[| z/ [B,Bb] | z/ [B,Bb] | z/ [B,Bb] \
+|| [K:bass] z/ [D,,D,D] | z/ [D,,D,D] | z/ [D,,D,D] |]
+w: B * * * | D
+V: 2 clef=treble
+[| [L:1/8] A,.B,c, | A.Bc | a.bc' \
+|| [K:bass][L:1/8] C,,.D,,E,, | C,.D,E,| C.DE |]
+w: A B C | A B C | A B C | C D E | C D E | C D E
+% ---------------------------------------------------------------------------
+%%gchordfont * 10
+T: Key signatures
+L: 1
+K:
+V: 1 clef=treble
+[| [K:C]  "C"xx  "Am"xx  \
+ | [K:G]  "G"xx  "Em"xx  \
+ | [K:D]  "D"xx  "Bm"xx  \
+ | [K:A]  "A"xx  "F#m"xx \
+ | [K:E]  "E"xx  "C#m"xx |]
+K:
+[| [K:B]  "B"xx  "G#m"xx \
+ | [K:F#] "F#"xx "D#m"xx \
+ | [K:C#] "C#"xx "A#m"xx |]
+K:
+w: Five Cats Got Drunk At Eddie's Bar
+V: 2 clef=treble
+[| [K:C]  "C"xx  "Am"xx  \
+ | [K:F]  "F"xx  "Dm"xx  \
+ | [K:Bb] "Bb"xx "Gm"xx  \
+ | [K:Eb] "Eb"xx "Cm"xx  \
+ | [K:Ab] "Ab"xx "Fm"xx  |]
+K:
+[| [K:Db] "Db"xx "Bbm"xx \
+ | [K:Gb] "Gb"xx "Ebm"xx \
+ | [K:Cb] "Cb"xx "Abm"xx |]
+% ---------------------------------------------------------------------------
+T: Intervals
+L: 1/4
+K: 
+V: 1 clef=treble
+[| [CC] [C^C] [CD] [C^D] [CE] [CF] [C^F] [CG] [C^G] [CA] [C^A] [CB] [Cc] |]
+w: P1   m2    M2    m3   M3   P4   TT    P5   m6    M6   m7    M7   P8
+V: 2 clef=treble
+[| [Cc] [C^c] [Cd] [C^d] [Ce] [Cf] [C^f] [Cg] [C^g] [Ca] [C^a] [Cb] [Cc'] |]
+w: P8   m9    M9   m10   M10  P11  (A11) P12  m13   M13  m14   M14  P15
