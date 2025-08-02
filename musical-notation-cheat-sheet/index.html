@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A comprehensive musical notation cheat sheet with note lengths, ranges, mnemonics, key signatures, and intervals for musicians and music students.">
+  <meta name="keywords" content="musical notation, sheet music, music theory, cheat sheet, notes, intervals, key signatures">
+  <meta name="author" content="Musical Notation Cheat Sheet">
+  <title>Musical Notation Cheat Sheet</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/abcjs@6.2.3/dist/abcjs-basic-min.js"></script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <div class="container">
+    <header>
+      <h1>Musical Notation Cheat Sheet</h1>
+      <p class="sr-only">A comprehensive reference guide for musical notation including note lengths, ranges, mnemonics, key signatures, and intervals.</p>
+    </header>
+    
+    <main id="main-content" role="main" aria-label="Musical notation content">
+      <div id="sheet-music" role="region" aria-label="Sheet music notation" aria-live="polite">
+        <div class="loading" aria-hidden="true">
+          <p>Loading musical notation...</p>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
